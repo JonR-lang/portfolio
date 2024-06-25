@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  background: #1b1c21;
+}
+
+.custom-radial {
+  background: rgb(62, 63, 67);
+  background: radial-gradient(
+    circle 400px,
+    rgba(62, 63, 67, 0.7) 0%,
+    rgba(27, 28, 33, 1)
+  );
+}
+
+.custom-header-gradient {
+  background: linear-gradient(
+    to bottom,
+    #1b1c21,
+    rgba(27, 28, 33, 0.5),
+    transparent
+  );
+}
+
+.grayscale {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+.project-thumbnail {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+/* Disable grayscale on hover */
+.project-thumbnail:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+
+.swiper-pagination {
+  transform: translate(0%, 50%);
+}
+
+.swiper-pagination-bullet {
+  background: #fff; /* Bullet color */
+  opacity: 0.2;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #f86a34;
+}
+
+.swiper_button-disabled {
+  opacity: 0.4;
+}
