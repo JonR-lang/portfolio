@@ -232,7 +232,7 @@ const projects = [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/anal-dash%2Fanal-dash-8.png?alt=media&token=f78d1328-9ebf-49c3-a821-2c682d842829",
       "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/anal-dash%2Fanal-dash-9.png?alt=media&token=8410be59-eac7-4fae-8352-9b7ff9ca2fa4",
     ],
-    live_url: "anal-dash.onrender.com",
+    live_url: "https://anal-dash.onrender.com",
     github: "https://github.com/JonR-lang/dash",
     features: [
       "Charts with tool tips",
