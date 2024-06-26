@@ -4,28 +4,15 @@ import { SiNodedotjs } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
-// import { SiSass } from "react-icons/si";
+import { aboutDescription } from "../data/data";
 
 const AboutSection = () => {
   return (
     <div className='flex flex-col md:flex-row-reverse gap-3'>
       <div className='text-neutral-200 space-y-4 flex-1 md:text-right'>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
-          consectetur accusamus distinctio placeat corrupti dolorum tempora
-          labore natus, nihil recusandae!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem
-          rerum nulla esse ut vero.
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem
-          rerum nulla esse ut vero. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Et voluptatum natus vitae. Sint itaque saepe tenetur
-          distinctio, nobis ex odio quisquam autem obcaecati omnis.
-        </p>
+        {aboutDescription.map((paragraph, i) => (
+          <p key={i}>{paragraph}</p>
+        ))}
       </div>
       <div className='grid place-content-center mt-10 md:mt-0 flex-1'>
         <div className='text-neutral-200 grid grid-cols-3 max-w-md gap-10 px-3 '>

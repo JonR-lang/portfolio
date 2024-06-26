@@ -1,7 +1,7 @@
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide, SwiperClass } from "swiper/react";
-import projects from "../data/data";
+import projectData from "../data/data";
 
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -13,9 +13,16 @@ const ProjectSlidesMobile = ({ className }: { className?: string }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const swiperElRef = useRef(null);
   const handleSlideChange = (swiper: SwiperClass) => {
-    console.log(swiper);
     setActiveIndex(swiper.activeIndex);
   };
+
+  const projects = useMemo(() => {
+    return projectData;
+  }, []);
+
+  const images = useMemo(() => {
+    return projectData.map((project) => project.thumbnail);
+  }, []);
 
   return (
     <div className={className}>
@@ -29,17 +36,15 @@ const ProjectSlidesMobile = ({ className }: { className?: string }) => {
         onSlideChange={handleSlideChange}
         className='w-[90%] aspect-[9/13]'
         ref={swiperElRef}>
-        {projects.map((item, i) => (
+        {images.map((item, i) => (
           <SwiperSlide
             key={i}
             className={`flex items-center justify-center rounded-xl text-7xl font-bold text-neutral-200 size-full`}>
-            <Link to={`/projects/${item.id}`} className='block'>
-              <img
-                src={item.thumbnail.mobileSrc}
-                alt={item.alt}
-                className={`object-cover size-full project-thumbnail overflow-hidden`}
-              />
-            </Link>
+            <img
+              src={item.mobileSrc}
+              alt={item.mobileSrc}
+              className={`object-cover size-full project-thumbnail overflow-hidden`}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

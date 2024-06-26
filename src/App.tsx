@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div className=''>
-      <Layout className='background font-montserrat'>
+      <Layout className='background font-montserrat max-w-[1280px] mx-auto'>
         <ErrorBoundary FallbackComponent={ErrorPage} onError={errorHandler}>
           <Routes>
             <Route path='/' element={<Home />} />

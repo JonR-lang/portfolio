@@ -250,4 +250,10 @@ const projects = [
   },
 ];
 
+export const aboutDescription = [
+  "Hi, I’m Iroele Johnny, a passionate full stack developer with a knack for creating dynamic and user-friendly web applications. Over the past two years, I have honed my skills in building websites and applications using React, ensuring that they are not only visually appealing but also highly functional and efficient. My goal is always to provide value through my work, whether by optimizing performance, enhancing user experience, or implementing the latest technologies.",
+  "I pride myself on my ability to adapt to new technologies quickly, which allows me to stay ahead in this ever-evolving field. Whether it's integrating new libraries, learning a new framework, or experimenting with cutting-edge tools, I'm always eager to expand my skill set and bring innovative solutions to the table. This adaptability ensures that the projects I work on are built using the most effective and modern approaches available.",
+  "One of my core strengths lies in creating highly responsive and accessibility-friendly web applications. I believe that a great application should be usable by everyone, regardless of their device or abilities. By focusing on performance and accessibility, I ensure that the websites and applications I develop are fast, intuitive, and inclusive, providing an excellent experience for all users.",
+];
+
 export default projects;
