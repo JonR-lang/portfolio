@@ -5,7 +5,7 @@ import ProjectDeets from "./ProjectDeets";
 import { ProjectType } from "../types/project.types";
 
 type ProjectCardProp = {
-  data: ProjectType
+  data: ProjectType;
 };
 
 const ProjectCard = ({ data }: ProjectCardProp) => {
@@ -52,7 +52,7 @@ const ProjectCard = ({ data }: ProjectCardProp) => {
 
       {selectedId && (
         <div
-          className='fixed inset-0 w-full h-screen bg-black/40 md:bg-black/20 z-10'
+          className='fixed z-40 inset-0 w-full h-screen bg-black/40 md:bg-black/20'
           onClick={() => setSelectedId(null)}></div>
       )}
     </div>

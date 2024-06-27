@@ -23,7 +23,7 @@ const ProjectDeets = ({
       {selectedId && (
         <motion.div
           layoutId={selectedId}
-          className='fixed top-[15%] lg:bottom-[15%] landscape:bottom-[15%] left-[5%] md:left-[15%] md:w-[70%] w-[90%] bg-black/90 z-20 p-4 flex flex-col lg:flex-row gap-3 lg:items-center border md:border-none border-neutral-600 overflow-y-auto'>
+          className='fixed z-50 top-[15%] lg:bottom-[15%] landscape:bottom-[15%] left-[5%] md:left-[15%] md:w-[70%] w-[90%] bg-black/90 p-4 flex flex-col lg:flex-row gap-3 lg:items-center border md:border-none border-neutral-600 overflow-y-auto'>
           <motion.figure className='lg:max-w-xs xl:max-w-sm aspect-[16/9]'>
             <motion.img
               src={data.thumbnail.desktopSrc}

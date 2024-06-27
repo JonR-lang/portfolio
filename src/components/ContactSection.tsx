@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import { SlSocialInstagram } from "react-icons/sl";
 import { RiTwitterXLine } from "react-icons/ri";
 import { SiGithub } from "react-icons/si";
 
 const ContactSection = () => {
+  const navigate = useNavigate();
+
   return (
     <section className='flex items-center justify between gap-5 p-4  md:p-8 bg-black/30 text-neutral-300 mt-6  flex-col md:flex-row'>
       <div className='flex-[2]'>
@@ -41,7 +44,9 @@ const ContactSection = () => {
         </div>
       </div>
       <div className='flex justify-center items-center md:flex-1 w-full'>
-        <button className='bg-postman text-neutral-100 shadow-md py-3 px-2 w-full max-w-[200px]'>
+        <button
+          onClick={() => navigate("/contact")}
+          className='bg-postman text-neutral-100 shadow-md py-3 px-2 w-full max-w-[200px]'>
           Contact
         </button>
       </div>

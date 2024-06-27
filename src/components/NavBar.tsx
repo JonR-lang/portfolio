@@ -9,8 +9,20 @@ const NavBar = () => {
   return (
     <div>
       <div className='sm:flex gap-7 text-neutral-100 hidden'>
-        <NavLink to='/projects'>Projects</NavLink>
-        <NavLink to='/contact'>Contact</NavLink>
+        <NavLink
+          to='/projects'
+          className={({ isActive }) =>
+            isActive ? "border-b border-b-postman" : "relative links"
+          }>
+          Projects
+        </NavLink>
+        <NavLink
+          to='/contact'
+          className={({ isActive }) =>
+            isActive ? "border-b border-b-postman" : "relative links"
+          }>
+          Contact
+        </NavLink>
       </div>
       <button
         onClick={() => setIsMenuOpen(true)}

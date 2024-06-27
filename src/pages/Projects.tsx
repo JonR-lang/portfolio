@@ -13,7 +13,7 @@ const Projects = () => {
       </h2>
 
       {/* {animated underline} */}
-      <div className='h-[2px] w-full  mt-1' aria-hidden={true}>
+      <div className='h-[1px] w-full  mt-1' aria-hidden={true}>
         <motion.div
           initial={{ width: 0 }}
           whileInView={{ width: "100%", transition: { duration: 4 } }}
