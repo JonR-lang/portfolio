@@ -13,16 +13,22 @@ const Hero = () => {
         <p className='mt-1 block text-right'>A Fullstack Developer.</p>
       </div>
       <div className='flex sm:flex-col gap-6 absolute bottom-10 sm:left-0'>
-        <a href='https://instagram.com/ynnhoj.r'>
-          <SlSocialInstagram fontSize={25} />
+        <a
+          href='https://instagram.com/ynnhoj.r'
+          target='_blank'
+          rel='noreferrer'>
+          <SlSocialInstagram fontSize={25} aria-hidden={true} />
           <span className='sr-only'>Link to Johnny's instagram</span>
         </a>
-        <a href='https://twitter.com/iroelejohnny'>
-          <RiTwitterXLine fontSize={25} />
+        <a
+          href='https://twitter.com/iroelejohnny'
+          target='_blank'
+          rel='noreferrer'>
+          <RiTwitterXLine fontSize={25} aria-hidden={true} />
           <span className='sr-only'>Link to Johnny's twitter</span>
         </a>
-        <a href='https://github.com/jonr-lang'>
-          <SiGithub fontSize={25} />
+        <a href='https://github.com/jonr-lang' target='_blank' rel='noreferrer'>
+          <SiGithub fontSize={25} aria-hidden={true} />
           <span className='sr-only'>Link to Johnny's github</span>
         </a>
       </div>

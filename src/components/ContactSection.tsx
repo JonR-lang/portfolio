@@ -25,18 +25,24 @@ const ContactSection = () => {
         <div className='flex my-5 gap-6 justify-center md:justify-start'>
           <a
             href='https://instagram.com/ynnhoj.r'
+            target='_blank'
+            rel='noreferrer'
             className='hover:scale-105 transition'>
             <SlSocialInstagram fontSize={25} />
             <span className='sr-only'>Link to Johnny's instagram</span>
           </a>
           <a
             href='https://twitter.com/iroelejohnny'
+            target='_blank'
+            rel='noreferrer'
             className='hover:scale-105 transition'>
             <RiTwitterXLine fontSize={25} />
             <span className='sr-only'>Link to Johnny's twitter</span>
           </a>
           <a
             href='https://github.com/jonr-lang'
+            target='_blank'
+            rel='noreferrer'
             className='hover:scale-105 transition'>
             <SiGithub fontSize={25} />
             <span className='sr-only'>Link to Johnny's github</span>
