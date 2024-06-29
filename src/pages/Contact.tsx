@@ -38,11 +38,12 @@ const Contact = () => {
             </figcaption>
           </figure>
         </div>
-        <p className="relative after:absolute after:content-[''] after:w-full after:h-[1px] after:bg-neutral-500 after:top-[50%] after:translate-y-[-50%] after:left-0  text-center text-xl font-semibold my-4 after:z-[-1]">
-          Or
-        </p>
+        <div className="flex justify-center relative after:absolute before:absolute after:content-[''] before:content-[''] after:w-[42%] before:w-[42%] after:h-[1px] before:h-[1px] after:bg-neutral-500 before:bg-neutral-500 after:top-[50%] before:top-[50%] after:translate-y-[-50%] before:translate-y-[-50%] before:right-0 after:left-0 text-center text-xl font-semibold my-4 after:z-[-1]">
+          <p className='px-2'>Or</p>
+        </div>
+
         <ContactForm />
-        <div className='flex sm:flex-col gap-6 items-center justify-center my-10'>
+        <div className='flex gap-6 items-center justify-center my-10'>
           <a
             href='https://instagram.com/ynnhoj.r'
             target='_blank'
