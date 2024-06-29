@@ -15,14 +15,14 @@ const ContactSection = () => {
         <h3 className='mt-4 text-center md:text-left'>
           You can contact me via:
         </h3>
-        <p className='text-center md:text-left mt-1 text-neutral-100'>
+        <p className='text-center md:text-left mt-3 md:mt-1 text-neutral-100'>
           <span className='text-neutral-400'>Mobile: </span>+2348063197455
         </p>
-        <p className='text-center md:text-left mt-1 text-neutral-100'>
+        <p className='text-center md:text-left mt-3 md:mt-1 text-neutral-100'>
           <span className='text-neutral-400'>Email: </span>
           iroelejohnny@outlook.com
         </p>
-        <div className='flex my-5 gap-6 justify-center md:justify-start'>
+        <div className='flex mt-3 md:my-5 gap-6 justify-center md:justify-start'>
           <a
             href='https://instagram.com/ynnhoj.r'
             target='_blank'
