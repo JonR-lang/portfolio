@@ -38,7 +38,7 @@ const Contact = () => {
             </figcaption>
           </figure>
         </div>
-        <p className="relative after:absolute after:content-[''] after:w-full after:h-[1px] after:bg-neutral-500 after:top-[50%] after:translate-y-[-50%] after:left-0  text-center text-xl font-semibold my-4">
+        <p className="relative after:absolute after:content-[''] after:w-full after:h-[1px] after:bg-neutral-500 after:top-[50%] after:translate-y-[-50%] after:left-0  text-center text-xl font-semibold my-4 after:z-[-1]">
           Or
         </p>
         <ContactForm />
