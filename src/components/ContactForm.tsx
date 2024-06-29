@@ -34,8 +34,6 @@ const ContactForm = () => {
         setToastObj((prevObj) => ({
           ...prevObj,
           visible: true,
-          variant: "outline",
-          header: "",
           description: "Your message has been sent successfully!",
         }));
         clearInputs();
@@ -138,6 +136,8 @@ const ContactForm = () => {
               ...prevObj,
               visible: false,
               description: "",
+              header: "",
+              variant: "outline",
             }))
           }
           header={toastObj.header && toastObj.header}
