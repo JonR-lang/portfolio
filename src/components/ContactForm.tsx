@@ -1,13 +1,57 @@
 import { useState } from "react";
+import Toast from "./Toast";
 const ContactForm = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [toastObj, setToastObj] = useState<{
+    visible: boolean;
+    header?: string;
+    description: string;
+    variant: "outline" | "destructive";
+  }>({ visible: false, header: "", description: "", variant: "outline" });
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const clearInputs = () => {
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setMessage("");
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log({ firstName, lastName, email, message });
+    try {
+      const response = await fetch("https://formspree.io/f/xanwywbv", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ firstName, lastName, email, message }),
+      });
+
+      if (response.ok) {
+        setToastObj((prevObj) => ({
+          ...prevObj,
+          visible: true,
+          variant: "outline",
+          header: "",
+          description: "Your message has been sent successfully!",
+        }));
+        clearInputs();
+      } else {
+        throw new Error("Something went wrong. Try again later!");
+      }
+    } catch (error: any) {
+      console.log(error.message);
+      setToastObj((prevObj) => ({
+        ...prevObj,
+        visible: true,
+        header: "Error!",
+        description: error.message,
+        variant: "destructive",
+      }));
+    }
   };
 
   return (
@@ -15,7 +59,10 @@ const ContactForm = () => {
       <h2 className='text-2xl font-semibold text-center mb-4'>
         Leave me a message!
       </h2>
-      <form onSubmit={handleSubmit} className='grid grid-cols-2 gap-4'>
+      <form
+        id='contact-form'
+        onSubmit={handleSubmit}
+        className='grid grid-cols-2 gap-4'>
         <div className='flex flex-col w-full col-span-full md:col-span-1'>
           <label htmlFor='firstname' className='sr-only'>
             First name
@@ -74,7 +121,7 @@ const ContactForm = () => {
             required
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className='border border-neutral-600 rounded-sm p-2 hover:border-postman/80 focus:outline-none focus:border-postman/80 h-40'
+            className='border border-neutral-600 rounded-sm p-2 hover:border-postman/80 focus:outline-none focus:border-postman/80 h-40 overflow-auto'
             placeholder='Message'
           />
         </div>
@@ -84,6 +131,20 @@ const ContactForm = () => {
           Submit
         </button>
       </form>
+      {toastObj.visible && (
+        <Toast
+          closeToast={() =>
+            setToastObj((prevObj) => ({
+              ...prevObj,
+              visible: false,
+              description: "",
+            }))
+          }
+          header={toastObj.header && toastObj.header}
+          description={toastObj.description}
+          variant={toastObj.variant}
+        />
+      )}
     </div>
   );
 };
