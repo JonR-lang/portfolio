@@ -9,6 +9,12 @@ body {
   background: #1b1c21;
 }
 
+input,
+textarea {
+  appearance: none;
+  background: transparent;
+}
+
 .custom-radial {
   background: rgb(62, 63, 67);
   background: radial-gradient(
