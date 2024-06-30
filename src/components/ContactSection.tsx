@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { SlSocialInstagram } from "react-icons/sl";
+import { SlSocialLinkedin } from "react-icons/sl";
 import { RiTwitterXLine } from "react-icons/ri";
 import { SiGithub } from "react-icons/si";
 
@@ -24,11 +24,11 @@ const ContactSection = () => {
         </p>
         <div className='flex mt-3 md:my-5 gap-6 justify-center md:justify-start'>
           <a
-            href='https://instagram.com/ynnhoj.r'
+            href='https://www.linkedin.com/in/johnny-iroele-729b192a5/'
             target='_blank'
             rel='noreferrer'
             className='hover:scale-105 transition'>
-            <SlSocialInstagram fontSize={25} />
+            <SlSocialLinkedin fontSize={25} />
             <span className='sr-only'>Link to Johnny's instagram</span>
           </a>
           <a

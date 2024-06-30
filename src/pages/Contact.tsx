@@ -4,7 +4,7 @@ import BreadcrumbComponent from "../components/Breadcrumb";
 import { scrollToTop } from "../lib/utils";
 import WhatsappQR from "../assets/whatsapp-qr-code.png";
 import ContactForm from "../components/ContactForm";
-import { SlSocialInstagram } from "react-icons/sl";
+import { SlSocialLinkedin } from "react-icons/sl";
 import { RiTwitterXLine } from "react-icons/ri";
 import { SiGithub } from "react-icons/si";
 
@@ -48,11 +48,11 @@ const Contact = () => {
             href='https://instagram.com/ynnhoj.r'
             target='_blank'
             rel='noreferrer'>
-            <SlSocialInstagram fontSize={25} aria-hidden={true} />
+            <SlSocialLinkedin fontSize={25} aria-hidden={true} />
             <span className='sr-only'>Link to Johnny's instagram</span>
           </a>
           <a
-            href='https://twitter.com/iroelejohnny'
+            href='https://www.linkedin.com/in/johnny-iroele-729b192a5/'
             target='_blank'
             rel='noreferrer'>
             <RiTwitterXLine fontSize={25} aria-hidden={true} />
