@@ -1,4 +1,4 @@
-import { SlSocialLinkedin } from "react-icons/sl";
+import { FaLinkedin } from "react-icons/fa6";
 import { RiTwitterXLine } from "react-icons/ri";
 import { SiGithub } from "react-icons/si";
 
@@ -17,8 +17,12 @@ const Hero = () => {
           href='https://www.linkedin.com/in/johnny-iroele-729b192a5/'
           target='_blank'
           rel='noreferrer'>
-          <SlSocialLinkedin fontSize={25} aria-hidden={true} />
-          <span className='sr-only'>Link to Johnny's instagram</span>
+          <FaLinkedin
+            fontSize={27}
+            aria-hidden={true}
+            className='-mt-[1px] md:-mt-0'
+          />
+          <span className='sr-only'>Link to Johnny's linkedin</span>
         </a>
         <a
           href='https://twitter.com/iroelejohnny'

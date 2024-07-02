@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import { SlSocialLinkedin } from "react-icons/sl";
 import { RiTwitterXLine } from "react-icons/ri";
 import { SiGithub } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa6";
 
 const ContactSection = () => {
   const navigate = useNavigate();
@@ -26,10 +26,13 @@ const ContactSection = () => {
           <a
             href='https://www.linkedin.com/in/johnny-iroele-729b192a5/'
             target='_blank'
-            rel='noreferrer'
-            className='hover:scale-105 transition'>
-            <SlSocialLinkedin fontSize={25} />
-            <span className='sr-only'>Link to Johnny's instagram</span>
+            rel='noreferrer'>
+            <FaLinkedin
+              fontSize={27}
+              aria-hidden={true}
+              className='-mt-[1px]'
+            />
+            <span className='sr-only'>Link to Johnny's linkedin</span>
           </a>
           <a
             href='https://twitter.com/iroelejohnny'
