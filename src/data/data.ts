@@ -1,5 +1,45 @@
 const projects = [
   {
+    id: "29302",
+    rating: 4.0,
+    thumbnail: {
+      mobileSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/graphlete%2Fgraphlete-mobileIndex.png?alt=media&token=7cc87ad5-6471-4c74-bbca-bdee1392cf82",
+      desktopSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/graphlete%2Fgraphlete-dashboard.png?alt=media&token=c0a97abe-7192-433a-b9b0-3c455e5de152",
+    },
+    alt: "graphlete",
+    theme: "#32349d",
+    title: "Graphlete",
+    short_description:
+      "A full-stack application for tracking workouts and connecting with friends.",
+    long_description: [
+      "Graphlete is a full-stack application designed to help users track their workouts and connect with friends. The app features a user-friendly interface that allows users to log their workouts, view their progress, and share their achievements with friends. Built with Nextjs and Postgres as database, Graphlete offers a beautiful user experience and slick feel.",
+    ],
+    live_url: "https://graphlete.pro",
+    github: "",
+    features: [
+      "User authentication and management",
+      "Workout tracking",
+      "Progress tracking",
+      "Social sharing",
+      "Friend connection",
+    ],
+    stack: ["Nextjs", "Postgres", "Tailwind", "Framer Motion"],
+    category: "FullStack",
+    status: "Completed",
+    type: "Client project",
+    info: "Built and complete for a client -  private repository.",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/graphlete%2Fgraphlete-dashboard.png?alt=media&token=c0a97abe-7192-433a-b9b0-3c455e5de152",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/graphlete%2Fgraphlete-ipadpro.png?alt=media&token=bbc3547c-e009-4396-b1c3-006f43ae5b87",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/graphlete%2Fgraphlete-iphone-se.png?alt=media&token=94889f41-848f-4978-bc89-d23c55bc0b47",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/graphlete%2Fgraphlete-iphone-se.png?alt=media&token=94889f41-848f-4978-bc89-d23c55bc0b47",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/graphlete%2Fgraphlete-sign-in.png?alt=media&token=d57c3fbf-3afa-47f1-926e-841b1ff23a04",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/graphlete%2Fgraphlete-mobileIndex.png?alt=media&token=7cc87ad5-6471-4c74-bbca-bdee1392cf82",
+    ],
+  },
+  {
     id: "72311",
     rating: 4.7,
     thumbnail: {
@@ -45,6 +85,7 @@ const projects = [
     type: "Personal Project",
     info: "Hosted on a free Render instance, expect up to 50 seconds delay after inactivity.",
   },
+
   {
     id: "36046",
     rating: 4.5,
@@ -251,11 +292,9 @@ const projects = [
 ];
 
 export const aboutDescription = [
-  "Hi, I’m Iroele Johnny, a dedicated full stack developer with a passion for crafting dynamic, user-friendly web applications. Over the past two years, I’ve been building websites and applications with React, focusing on creating solutions that are not only visually appealing but also highly functional and efficient. My goal is always to deliver value through my work, whether it's optimizing performance, enhancing user experience, or incorporating the latest technologies.",
+  "I’m Iroele Johnny, a full-stack developer with a sharp focus on building fast, user-friendly web applications. For three years, I’ve been delivering high-performance websites and web-applications with React, ensuring every project is both functional and visually stunning!.",
 
-  "I pride myself on my ability to quickly adapt to new technologies, allowing me to stay ahead in this ever-evolving field. Whether it’s integrating new libraries, learning a new framework, or experimenting with cutting-edge tools, I’m always eager to expand my skill set and bring innovative solutions to the table. This adaptability ensures that the projects I work on are built using the most effective and modern approaches available.",
-
-  "One of my core strengths is developing highly responsive and accessibility-friendly web applications. I believe a great application should be usable by everyone, regardless of their device or abilities. By prioritizing performance and accessibility, I ensure the websites and applications I develop are fast, intuitive, and inclusive, providing an excellent experience for all users.",
+  "I take ownership of my work, adapt quickly to new technologies, and do whatever it takes to get the job done. My priority is always a clean and modern UI, performance, accessibility, and a seamless user experience—leaving clients satisfied, every time.",
 ];
 
 export default projects;

@@ -33,10 +33,11 @@ const ProjectSlidesDesktop = ({ className }: { className?: string }) => {
         pagination={{ clickable: true }}
         modules={[EffectCoverflow, Pagination]}
         onSlideChange={handleSlideChange}
-        className='pb-8'>
+        className="pb-8"
+      >
         {projects.map((item, i) => (
-          <SwiperSlide key={i} className='w-[500px] aspect-[15/9]'>
-            <Link to={`/projects/${item.id}`} className='block'>
+          <SwiperSlide key={i} className="w-[500px] aspect-[15/9]">
+            <Link to={`/projects/${item.id}`} className="block">
               <img
                 src={item.thumbnail.desktopSrc}
                 alt={item.alt}
@@ -46,16 +47,20 @@ const ProjectSlidesDesktop = ({ className }: { className?: string }) => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div id='slide-info' className='mt-4 text-center text-neutral-200'>
-        <h2 className='font-semibold text-4xl '>
+      <div
+        id="slide-info"
+        className="mt-5 h-[100px] text-center text-neutral-200"
+      >
+        <h2 className="font-semibold text-4xl ">
           {projects[activeIndex].title}
         </h2>
-        <p className='text-sm text-neutral-400 mt-2'>
+        <p className="text-sm text-neutral-400 mt-2">
           {projects[activeIndex].short_description}
         </p>
         <Link
           to={`/projects/${projects[activeIndex].id}`}
-          className='text-xs underline hover:text-white'>
+          className="text-xs underline hover:text-white"
+        >
           More details
         </Link>
       </div>
