@@ -4,7 +4,6 @@ import { SiNodedotjs } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
-import { aboutDescription } from "../data/data";
 
 const AboutSection = () => {
   return (
@@ -13,9 +12,23 @@ const AboutSection = () => {
         id="about"
         className="text-center text-neutral-200 space-y-4 flex-1 md:text-right"
       >
-        {aboutDescription.map((paragraph, i) => (
-          <p key={i}>{paragraph}</p>
-        ))}
+        <p>
+          {" "}
+          I’m Iroele Johnny, a full-stack developer with a sharp focus on
+          building fast, user-friendly websites and applications. For three
+          years, I’ve been delivering high-performance websites and
+          web-applications with React, ensuring every project is both functional
+          and visually stunning!.
+        </p>
+        <p>
+          I take ownership of my work, adapt quickly to new technologies, and do{" "}
+          <span className="text-orange-400 font-semibold">
+            whatever it takes
+          </span>{" "}
+          to get the job done; no excuses. My priority is always a clean and
+          modern UI, performance, accessibility, and a seamless user
+          experience—leaving clients satisfied, every time.
+        </p>
       </section>
       <div className="grid place-content-center mt-10 md:mt-0 flex-1">
         <div className="text-neutral-200 grid grid-cols-3 max-w-md gap-10 px-3 ">

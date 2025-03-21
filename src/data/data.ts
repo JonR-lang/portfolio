@@ -291,10 +291,4 @@ const projects = [
   },
 ];
 
-export const aboutDescription = [
-  "I’m Iroele Johnny, a full-stack developer with a sharp focus on building fast, user-friendly web applications. For three years, I’ve been delivering high-performance websites and web-applications with React, ensuring every project is both functional and visually stunning!.",
-
-  "I take ownership of my work, adapt quickly to new technologies, and do whatever it takes to get the job done. My priority is always a clean and modern UI, performance, accessibility, and a seamless user experience—leaving clients satisfied, every time.",
-];
-
 export default projects;
