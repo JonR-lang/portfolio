@@ -1,5 +1,92 @@
 const projects = [
   {
+    id: "123098",
+    rating: 4.5,
+    thumbnail: {
+      mobileSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone.png?alt=media&token=82dd6337-db8d-4dd1-8d7b-7dc4a76b3666",
+      desktopSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-nesthub-one.png?alt=media&token=04bdba9e-ea11-4140-8ff4-ac347e8dd756",
+    },
+    alt: "arami-essentials",
+    theme: "#698dae",
+    title: "Arami Essentials",
+    short_description:
+      "trustedconnectivity.valid.com offers secure global cellular connectivity and SIM solutions for IoT deployments.",
+    long_description: [
+      "The website aramiessentials.com serves as the official online store and brand representation for Aramis Essentials. It is primarily an e-commerce platform dedicated to showcasing and selling a curated selection of grooming, fragrance, and personal care products under the Aramis brand, specifically focusing on their 'essentials' or core product lines.",
+      "The product range featured on the site centers around key items for men's grooming and fragrance, typically including popular Aramis scents, aftershaves, body washes, deodorants, and related personal care staples. The selection emphasizes the brand's classic and established offerings, designed to meet the fundamental daily needs of their target customer.",
+      "Reflecting the long-standing heritage of the Aramis brand, the website likely projects an image of classic masculinity, quality, and sophistication. It aims to appeal to customers who appreciate traditional, reliable, and high-quality grooming products and fragrances, reinforcing the brand's legacy in the men's grooming market.",
+      "Beyond just displaying products, aramiessentials.com functions as a direct-to-consumer channel, allowing users to browse product details, manage a shopping cart, and complete purchases online. It provides convenient access to the core Aramis Essentials product line for customers looking to buy directly from the brand.",
+    ],
+    live_url: "https://aramiessentials.com/",
+    github: "",
+    features: [
+      "Product catalog",
+      "Shopping cart",
+      "Advanced filters and sorting",
+      "Checkout process",
+      "Order tracking",
+      "User authentication and management",
+    ],
+    stack: ["React", "Appwrite", "Tailwind", "Framer Motion"],
+    category: "FullStack",
+    status: "Completed",
+    type: "Client project",
+    info: "Built and complete for a client - private repository.",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-ipad-one.png?alt=media&token=70b82247-6665-42a2-996d-3b7393b75c9d",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-ipad-three.png?alt=media&token=c856fb1b-cc2b-4a76-9675-56201fb029b3",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-ipad-two.png?alt=media&token=7acf0590-ce60-4a29-a939-179c89988fb1",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone-three.png?alt=media&token=a5312d11-84ab-4bbc-85c2-de73624d654f",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone-two.png?alt=media&token=9992ad89-a496-4e7b-a75a-7174a16524a6",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone.png?alt=media&token=82dd6337-db8d-4dd1-8d7b-7dc4a76b3666",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-nesthub-one.png?alt=media&token=04bdba9e-ea11-4140-8ff4-ac347e8dd756",
+    ],
+  },
+  {
+    id: "123094",
+    rating: 4.7,
+    thumbnail: {
+      mobileSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/trusted-valid%2Fiphone-trusted-valid.png?alt=media&token=f562858a-17d3-4068-8557-acfa4adbef5d",
+      desktopSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/trusted-valid%2Ftrusted-nesthub-two.png?alt=media&token=bcb70473-aefe-4376-976a-204f688d3060",
+    },
+    alt: "trusted-valid",
+    theme: "#698dae",
+    title: "Trusted Connectivity",
+    short_description:
+      "Arami Essentials is the official online store for Aramis, featuring classic men's grooming and fragrance essentials.",
+    long_description: [
+      "The website trustedconnectivity.valid.com serves as the online presence for Valid's division specializing in providing secure and reliable cellular connectivity solutions, primarily focused on the Internet of Things (IoT). Their core purpose is enabling devices across various industries to connect seamlessly and securely to mobile networks globally, positioning themselves as experts in managing the identity and communication foundation for connected products.",
+      "A key focus of their offering revolves around Subscriber Identity Modules (SIM technology), including traditional physical SIM cards, embedded SIMs (eSIM), and integrated SIMs (iSIM). These technologies are central to providing the secure identity and authentication necessary for devices to connect to cellular networks. The site emphasizes their capability in supplying and managing these secure elements and identities within IoT devices.",
+      "Beyond just providing the physical or digital SIM components, Valid offers comprehensive services covering the entire connectivity lifecycle. This includes secure remote SIM provisioning (RSP) platforms that allow for over-the-air profile activation and management. They highlight platform capabilities for managing large-scale IoT deployments, simplifying the logistics and operations associated with connecting and maintaining fleets of devices across different mobile operators and regions.",
+      "Valid positions itself as a trusted partner for businesses deploying IoT solutions that require robust, secure, and global cellular connectivity. They aim to simplify the complexity often associated with global IoT deployments, offering certified and validated solutions that ensure reliable communication for diverse use cases, from industrial automation and smart metering to automotive and consumer electronics. Their value proposition centers on providing the essential, secure connectivity layer that enables trusted IoT ecosystems.",
+    ],
+    live_url: "https://trustedconnectivity.valid.com/",
+    github: "",
+    features: [
+      "Product catalog",
+      "Shopping cart",
+      "Advanced filters and sorting",
+      "Checkout process",
+      "Order tracking",
+      "User authentication and management",
+    ],
+    stack: ["React", "Appwrite", "Tailwind", "Framer Motion"],
+    category: "FullStack",
+    status: "Completed",
+    type: "Client project",
+    info: "Built and complete for a client - private repository.",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/trusted-valid%2Ftrusted-nesthub-two.png?alt=media&token=bcb70473-aefe-4376-976a-204f688d3060",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/trusted-valid%2Fvalid-nesthub-one.png?alt=media&token=02e3b361-0130-4090-9b7e-851001220c13",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/trusted-valid%2Ftrusted-valid-iphone-one.png?alt=media&token=fccf7785-13fa-4a94-af5b-bcc6a13edacf",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/trusted-valid%2Fiphone-trusted-valid.png?alt=media&token=f562858a-17d3-4068-8557-acfa4adbef5d",
+    ],
+  },
+  {
     id: "29302",
     rating: 4.0,
     thumbnail: {
@@ -39,6 +126,7 @@ const projects = [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/graphlete%2Fgraphlete-mobileIndex.png?alt=media&token=7cc87ad5-6471-4c74-bbca-bdee1392cf82",
     ],
   },
+
   {
     id: "72311",
     rating: 4.7,
