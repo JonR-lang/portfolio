@@ -1,50 +1,5 @@
 const projects = [
   {
-    id: "123098",
-    rating: 4.5,
-    thumbnail: {
-      mobileSrc:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone.png?alt=media&token=82dd6337-db8d-4dd1-8d7b-7dc4a76b3666",
-      desktopSrc:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-nesthub-one.png?alt=media&token=04bdba9e-ea11-4140-8ff4-ac347e8dd756",
-    },
-    alt: "arami-essentials",
-    theme: "#698dae",
-    title: "Arami Essentials",
-    short_description:
-      "trustedconnectivity.valid.com offers secure global cellular connectivity and SIM solutions for IoT deployments.",
-    long_description: [
-      "The website aramiessentials.com serves as the official online store and brand representation for Aramis Essentials. It is primarily an e-commerce platform dedicated to showcasing and selling a curated selection of grooming, fragrance, and personal care products under the Aramis brand, specifically focusing on their 'essentials' or core product lines.",
-      "The product range featured on the site centers around key items for men's grooming and fragrance, typically including popular Aramis scents, aftershaves, body washes, deodorants, and related personal care staples. The selection emphasizes the brand's classic and established offerings, designed to meet the fundamental daily needs of their target customer.",
-      "Reflecting the long-standing heritage of the Aramis brand, the website likely projects an image of classic masculinity, quality, and sophistication. It aims to appeal to customers who appreciate traditional, reliable, and high-quality grooming products and fragrances, reinforcing the brand's legacy in the men's grooming market.",
-      "Beyond just displaying products, aramiessentials.com functions as a direct-to-consumer channel, allowing users to browse product details, manage a shopping cart, and complete purchases online. It provides convenient access to the core Aramis Essentials product line for customers looking to buy directly from the brand.",
-    ],
-    live_url: "https://aramiessentials.com/",
-    github: "",
-    features: [
-      "Product catalog",
-      "Shopping cart",
-      "Advanced filters and sorting",
-      "Checkout process",
-      "Order tracking",
-      "User authentication and management",
-    ],
-    stack: ["React", "Appwrite", "Tailwind", "Framer Motion"],
-    category: "FullStack",
-    status: "Completed",
-    type: "Client project",
-    info: "Built and complete for a client - private repository.",
-    images: [
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-ipad-one.png?alt=media&token=70b82247-6665-42a2-996d-3b7393b75c9d",
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-ipad-three.png?alt=media&token=c856fb1b-cc2b-4a76-9675-56201fb029b3",
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-ipad-two.png?alt=media&token=7acf0590-ce60-4a29-a939-179c89988fb1",
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone-three.png?alt=media&token=a5312d11-84ab-4bbc-85c2-de73624d654f",
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone-two.png?alt=media&token=9992ad89-a496-4e7b-a75a-7174a16524a6",
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone.png?alt=media&token=82dd6337-db8d-4dd1-8d7b-7dc4a76b3666",
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-nesthub-one.png?alt=media&token=04bdba9e-ea11-4140-8ff4-ac347e8dd756",
-    ],
-  },
-  {
     id: "123094",
     rating: 4.7,
     thumbnail: {
@@ -57,12 +12,12 @@ const projects = [
     theme: "#698dae",
     title: "Trusted Connectivity",
     short_description:
-      "Arami Essentials is the official online store for Aramis, featuring classic men's grooming and fragrance essentials.",
+      "Making IoT devices talk to each other across the globe - no drama, just reliable connections.",
     long_description: [
-      "The website trustedconnectivity.valid.com serves as the online presence for Valid's division specializing in providing secure and reliable cellular connectivity solutions, primarily focused on the Internet of Things (IoT). Their core purpose is enabling devices across various industries to connect seamlessly and securely to mobile networks globally, positioning themselves as experts in managing the identity and communication foundation for connected products.",
-      "A key focus of their offering revolves around Subscriber Identity Modules (SIM technology), including traditional physical SIM cards, embedded SIMs (eSIM), and integrated SIMs (iSIM). These technologies are central to providing the secure identity and authentication necessary for devices to connect to cellular networks. The site emphasizes their capability in supplying and managing these secure elements and identities within IoT devices.",
-      "Beyond just providing the physical or digital SIM components, Valid offers comprehensive services covering the entire connectivity lifecycle. This includes secure remote SIM provisioning (RSP) platforms that allow for over-the-air profile activation and management. They highlight platform capabilities for managing large-scale IoT deployments, simplifying the logistics and operations associated with connecting and maintaining fleets of devices across different mobile operators and regions.",
-      "Valid positions itself as a trusted partner for businesses deploying IoT solutions that require robust, secure, and global cellular connectivity. They aim to simplify the complexity often associated with global IoT deployments, offering certified and validated solutions that ensure reliable communication for diverse use cases, from industrial automation and smart metering to automotive and consumer electronics. Their value proposition centers on providing the essential, secure connectivity layer that enables trusted IoT ecosystems.",
+      "Ever wondered how your smart watch syncs with your phone, or how those electric scooters scattered around the city stay connected? That's where Trusted Connectivity comes in. I built this platform for Valid to showcase their expertise in keeping IoT devices chatting happily across cellular networks worldwide.",
+      "The real magic happens with SIM technology - and I'm not just talking about the tiny cards in your phone. We're dealing with embedded SIMs, integrated SIMs, and all the techy goodness that makes devices authenticate securely on networks. It's like giving every IoT device its own digital passport.",
+      "What makes this project special is how it tackles the nightmare of managing thousands of connected devices. Imagine trying to keep track of sensors in different countries, all on different networks - sounds like a headache, right? Valid's platform handles remote provisioning and over-the-air updates like a boss, making the whole process surprisingly smooth.",
+      "From smart meters to connected cars, this platform is the invisible backbone that keeps our increasingly connected world running. It's one of those behind-the-scenes solutions that you never think about until it's not working - and with Valid, it just works.",
     ],
     live_url: "https://trustedconnectivity.valid.com/",
     github: "",
@@ -99,9 +54,9 @@ const projects = [
     theme: "#32349d",
     title: "Graphlete",
     short_description:
-      "A full-stack application for tracking workouts and connecting with friends.",
+      "Finally, a workout tracker that doesn't make you want to skip leg day - share gains with friends included!",
     long_description: [
-      "Graphlete is a full-stack application designed to help users track their workouts and connect with friends. The app features a user-friendly interface that allows users to log their workouts, view their progress, and share their achievements with friends. Built with Nextjs and Postgres as database, Graphlete offers a beautiful user experience and slick feel.",
+      "Let's be honest - most fitness apps are either too complicated or too boring. Graphlete is neither. I built this full-stack beauty to actually make workout tracking fun and social, because who doesn't want to flex their PR with friends?",
     ],
     live_url: "https://graphlete.pro",
     github: "",
@@ -128,6 +83,103 @@ const projects = [
   },
 
   {
+    id: "oilrush-001",
+    rating: 5,
+    thumbnail: {
+      mobileSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush-type-a.png?alt=media&token=5507da90-78cc-41d7-82a6-d4d2f7676027",
+      desktopSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush-type-a.png?alt=media&token=5507da90-78cc-41d7-82a6-d4d2f7676027",
+    },
+    alt: "oil-rush-app",
+    theme: "#000000",
+    title: "Oil Rush",
+    short_description:
+      "A Telegram mini app where users earn coins by completing tasks in a gamified oil-wealth empire.",
+    long_description: [
+      "Oil Rush is a Telegram-based gamified experience inspired by the luxury, extravagance, and wealth of oil-rich cities like Dubai. I built this app to immerse users in a dynamic, high-reward environment where their social activity fuels their rise to virtual opulence.",
+      "From claiming joining bonuses to engaging with daily tasks like tweet engagement, referrals, and watching ads, every action earns you coins. The catch? Farming is intentionally difficult to make progression feel earned.",
+      "Users pick from avatars like Omar, Tariq, Yasmin, and Amina—each with unique perks. They can also unlock Oil Bonds (tiers) to multiply their earnings and unlock elite privileges. The mechanics include login streaks, flip games, and hot tasks that keep engagement fresh.",
+      "It's not just about coins—it's about dominance. Every design and mechanic reinforces the theme of competition, reward, and digital prestige. This was one of the most dynamic ecosystems I've built and one of the most rewarding for users to explore.",
+    ],
+    live_url: "https://t.me/OilRush_Bot/oilrush?startapp=6311581319",
+    github: "",
+    features: [
+      "Telegram authentication and mini app integration",
+      "Avatar and tier system with progression",
+      "Daily login bonuses and streak tracking",
+      "Referral system with premium user detection",
+      "Gamified tasks (tweet, follow, ads)",
+      "Flip game with cooldowns and tier bonuses",
+      "Weekly promotions (tier/avatar-specific)",
+    ],
+    stack: [
+      "Node.js",
+      "Firebase",
+      "Telegram Bot API",
+      "React",
+      "Tailwind",
+      "Framer Motion",
+    ],
+    category: "Mini App",
+    status: "In Development",
+    type: "Personal Project",
+    info: "Built as a Telegram mini app with dynamic gamification logic and reward systems.",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush_iphone-3.png?alt=media&token=48fc57fb-4332-4de5-a35b-28684d69cb42",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush_iphone-1.png?alt=media&token=7a1f4933-f765-4fe5-9bbc-a44c099a6e32",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush_Iphone-2.png?alt=media&token=d366ae80-3cd4-4285-9088-22f34b44fc6b",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush-type-b.png?alt=media&token=6d8e0d19-0ad8-413a-b6f9-492ebe5faa5f",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush-type-a.png?alt=media&token=5507da90-78cc-41d7-82a6-d4d2f7676027",
+    ],
+  },
+  {
+    id: "123098",
+    rating: 4.5,
+    thumbnail: {
+      mobileSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone.png?alt=media&token=82dd6337-db8d-4dd1-8d7b-7dc4a76b3666",
+      desktopSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-nesthub-one.png?alt=media&token=04bdba9e-ea11-4140-8ff4-ac347e8dd756",
+    },
+    alt: "arami-essentials",
+    theme: "#698dae",
+    title: "Arami Essentials",
+    short_description:
+      "Your go-to online destination for premium men's grooming essentials and classic fragrances.",
+    long_description: [
+      "Picture this: You need quality grooming products but don't want to hunt through endless aisles or mediocre websites. That's where Arami Essentials comes in. I built this sleek e-commerce platform to showcase the timeless Aramis brand in all its sophisticated glory.",
+      "The site is packed with everything a modern gentleman needs - from their signature scents and aftershaves to body washes and daily essentials. Think of it as a curated collection of the good stuff, without all the fluff you don't need.",
+      "What I love about this project is how it captures that classic masculine vibe that Aramis is known for. It's not trying to be the trendiest thing on the block - instead, it's confidently traditional, appealing to guys who know quality when they see it.",
+      "Beyond looking good, this baby actually works. Users can browse products, toss items in their cart, and checkout seamlessly. It's the kind of smooth shopping experience that makes you want to come back for more.",
+    ],
+    live_url: "https://aramiessentials.com/",
+    github: "",
+    features: [
+      "Product catalog",
+      "Shopping cart",
+      "Advanced filters and sorting",
+      "Checkout process",
+      "Order tracking",
+      "User authentication and management",
+    ],
+    stack: ["React", "Appwrite", "Tailwind", "Framer Motion"],
+    category: "FullStack",
+    status: "Completed",
+    type: "Client project",
+    info: "Built and complete for a client - private repository.",
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-ipad-one.png?alt=media&token=70b82247-6665-42a2-996d-3b7393b75c9d",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-ipad-three.png?alt=media&token=c856fb1b-cc2b-4a76-9675-56201fb029b3",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-ipad-two.png?alt=media&token=7acf0590-ce60-4a29-a939-179c89988fb1",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone-three.png?alt=media&token=a5312d11-84ab-4bbc-85c2-de73624d654f",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone-two.png?alt=media&token=9992ad89-a496-4e7b-a75a-7174a16524a6",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-iphone.png?alt=media&token=82dd6337-db8d-4dd1-8d7b-7dc4a76b3666",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/arami%2Farami-nesthub-one.png?alt=media&token=04bdba9e-ea11-4140-8ff4-ac347e8dd756",
+    ],
+  },
+
+  {
     id: "72311",
     rating: 4.7,
     thumbnail: {
@@ -140,11 +192,12 @@ const projects = [
     theme: "#f86a34",
     title: "Burger Restaurant Api",
     short_description:
-      "A robust and efficient API for managing users, orders and of course, burgers.",
+      "The API that makes burger joints run smoother than a perfectly grilled patty.",
     long_description: [
-      "This is a robust API designed to provide a comprehensive backend for a burger restaurant, enabling seamless management of users, products, burger types, coupons, and orders. Built with Express.js for the server and MongoDB as the database, this API allows for efficient creation, reading, updating, and deletion of various entities.",
-      "The API offers a range of features to streamline restaurant operations, including user authentication and management, product management, burger type management, blog management, blog category management, coupon management, contact management, order management, and newsletter management.",
-      "The user authentication system ensures secure access, while the product and order management features facilitate smooth restaurant workflows. The inclusion of blog and newsletter management adds a layer of customer engagement, making this API a comprehensive solution for any burger restaurant.",
+      "You know that moment when you order a burger and everything just works perfectly? The order goes through, inventory updates, your loyalty points are added, and you get exactly what you wanted? Yeah, that's probably powered by something like this API.",
+      "I built this beast with Express.js and MongoDB to handle literally everything a burger restaurant needs to function in the digital age. We're talking user accounts, product management, order processing, and even blog content for those restaurants that like to share their secret sauce stories.",
+      "The best part? It's not just about burgers. This API handles coupons (because who doesn't love a good deal?), newsletters, customer contact forms, and even different burger categories. Want to track whether someone ordered the 'Heart Attack Special' or the 'Veggie Delight'? This API's got you covered.",
+      "Sure, it might seem like overkill for a burger joint, but when you're handling hundreds of orders and need everything to sync perfectly between your app, website, and kitchen display, you'll appreciate having all these features ready to go.",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/burger-restaurant-api%2Fapi-1.png?alt=media&token=799e55b5-f534-49be-884c-789c58a51019",
@@ -187,14 +240,13 @@ const projects = [
     theme: "#b53d19",
     title: "Burger Alchemist",
     short_description:
-      "A fullstack e-commerce kitchen that provides innovative burger recipes and personalized order recommendations.",
+      "Where burger science meets pure deliciousness - your taste buds will thank me later.",
     long_description: [
-      "This application is a highly accessible and responsive solution built using the MERN stack (MongoDB, Express, React, Node.js). Designed with performance and accessibility in mind, it ensures a smooth and excellent user experience for both sighted and non-sighted users.",
-      "The codebase is written semantically and is self-documenting, with an intuitive file structure that promotes easy readability and maintenance. TypeScript was utilized to ensure type safety, enhancing the reliability and robustness of the application.",
-      "The primary API used is the Burger-Restaurant API, which I also developed. This custom API supports the application's core functionalities, providing a solid backend framework. Additionally, the application integrates with the Paystack API, a payment management and checkout service, to ensure secure and seamless payment processing and order creation. For real-time payment verification, web sockets are employed, enabling immediate and accurate transaction confirmations.",
-      "This project represents my best work to date and was a comprehensive endeavor as I handled every aspect of development. From the UI design and frontend implementation to the backend and database design, every component was crafted by me. This holistic approach allowed for a cohesive and well-integrated application.",
-      "Building this application was an extensive process, requiring significant time and effort, but it has been incredibly rewarding. It showcases my ability to create a full-featured application independently and highlights my commitment to quality and user-centric design.",
-      "Experience the live site and see the results for yourself!",
+      "This project is my magnum opus, my Sistine Chapel, my... okay, maybe I'm getting carried away, but I'm genuinely proud of this one. Burger Alchemist isn't just another food delivery app - it's a full-blown culinary adventure built from scratch.",
+      "I went all-in on this beast: MERN stack with TypeScript, because type safety is sexy, and semantic HTML because accessibility matters. The whole thing talks to my custom Burger Restaurant API (yes, I built that too), and integrates with Paystack for payments. Real-time payment verification? We've got WebSockets for that.",
+      "Here's the crazy part - I designed every pixel, wrote every line of code, and structured every database table myself. From the initial UI mockups to the final deployment, this was a one-person show. It nearly drove me insane, but in the best possible way.",
+      "The app doesn't just let you order burgers - it recommends them based on your preferences, lets you rate and review, manage your wishlist, and tracks your order in real-time. Plus, it's fully accessible and responsive, because everyone deserves great burgers regardless of their device or abilities.",
+      "Want to see what happens when a developer gets really, really excited about burgers? Check out the live site - just don't blame me when you start craving a double cheeseburger at 2 AM.",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/burger-alchemist%2Fburger-alchemist-1.png?alt=media&token=e221cf6a-c4fa-4d9a-a605-8f9c85db40c2",
@@ -250,13 +302,13 @@ const projects = [
     alt: "memory-meld",
     theme: "#6466f1",
     title: "Memory Meld",
-    short_description: "A memory game you’ll always remember.",
+    short_description:
+      "The memory game that actually makes you want to remember things - starry nights included.",
     long_description: [
-      "Memory Meld is a captivating visual memory game that I designed, participating in a hackathon hosted by Mighty Meld. The game mechanics were pre-implemented, but the user interface needed styling and structure.",
-      "Several categories were open for competition, and driven by my passion for minimalist design and an exceptional user experience, I aimed for the 'Best Dark Mode' category—and I won!",
-      "In my final design, I created an interactive audiovisual experience. I incorporated features such as high scores, dark mode, star animations, and varying difficulty levels. The game's interface is not only functional but also visually engaging, making it an enjoyable experience for players of all ages.",
-      "The design boasts a calm theme with serene background music and satisfying flip sounds with each tile flip. The dark mode offers a consistent, beautiful theme with a starry sky appearance, enhancing the overall gaming experience. Players can challenge themselves by adjusting the difficulty levels and compete for the highest scores, which are stored for ongoing competition.",
-      "Why don’t you hop on the link and play?",
+      "So there I was, scrolling through hackathon announcements when Mighty Meld dropped this challenge: 'Here's a memory game, make it look incredible.' Challenge accepted. The game logic was already there, but the UI? That was all me, baby.",
+      "I went straight for the 'Best Dark Mode' category because, honestly, who doesn't love a good dark theme? Plus, I had this vision of a starry night sky with gentle animations and soothing sounds - the kind of game you'd actually want to play before bed instead of doom-scrolling social media.",
+      "The result? A zen-like experience with high scores, difficulty levels, and animations that make every tile flip feel satisfying. The background music is this calm, ambient tune that doesn't get annoying after the 50th game (trust me, I tested this extensively during development).",
+      "Best part of the story? I freaking won! The dark mode was so good it caught the judges' attention. Sometimes you just nail the vibe perfectly, and this was one of those times. Want to see what a winning memory game looks like? Give it a spin!",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/memory-meld%2Fmemory-meld-3.png?alt=media&token=fa00b227-959b-40b9-bd85-4bf796d09487",
@@ -293,15 +345,14 @@ const projects = [
     alt: "circle-sync",
     theme: "#3B82F6",
     title: "Circle Sync",
-    short_description: "A social media app for sharing your fondest memories.",
+    short_description:
+      "My first full-stack baby - where I learned that building social media is harder than it looks.",
     long_description: [
-      "This project marks my first foray into full stack development, where I created a social media application that allows users to share pictures, add friends, like posts, and leave comments. Leveraging the MERN stack (MongoDB, Express, React, Node.js), this project provided invaluable insights into the intricacies of building a full-fledged web application.",
-      "For the frontend, I used React to build a dynamic and responsive user interface, drawing design inspiration from platforms like Pinterest and Behance. State management was handled using React’s useState hook, enabling efficient handling of the app’s interactive features. The UI design, crafted personally, emphasizes user-friendliness and aesthetic appeal.",
-      "Data fetching was implemented using the Fetch API. While simple and straightforward, this method served the needs of the project effectively. Moving forward, I plan to explore more advanced state management solutions and data fetching libraries, such as Redux and Axios, to enhance the app's performance and scalability.",
-      "The backend was built with Express, providing a robust and flexible framework for creating the necessary APIs. Although the API is not extensive, it is tailored specifically to meet the application's requirements. This backend infrastructure facilitated the seamless interaction between the client-side and server-side, ensuring smooth data flow and user experience.",
-      "Embarking on this project significantly deepened my understanding of full stack development. It allowed me to practically apply my knowledge of the MERN stack and observe firsthand how different stack interact within a web application. This experience has been foundational in shaping my approach to future projects, providing a mental blueprint for the development process.",
-      "With the knowledge and experience gained from this initial project, I recognize several areas for improvement. Future updates will focus on enhancing state management, optimizing data fetching, and expanding the API to include more features. These upgrades aim to improve the app’s efficiency, scalability, and overall user experience.",
-      "In summary, this social media app project was a crucial step in my journey as a full stack developer. It equipped me with practical skills and a solid understanding of web development, laying the groundwork for more advanced projects in the future.",
+      "Ah, Circle Sync. My first real venture into full-stack development, back when I thought building a social media app would be 'easy.' Spoiler alert: it wasn't, but boy did I learn a lot!",
+      "The concept was simple enough - let people share photos, add friends, like posts, and leave comments. You know, like every other social platform, but mine! I went with the MERN stack because everyone said it was beginner-friendly (they lied, but in a good way).",
+      "Looking back, I can see all the rookie mistakes. Using basic useState for everything? Check. Fetch API instead of something more robust? Double check. But you know what? It works, and more importantly, it taught me how all the pieces of a web application actually fit together.",
+      "The design was inspired by Pinterest and Behance - I wanted something clean and visual-first. The UI might not win any awards, but it's functional and honestly, not terrible for a first attempt. Plus, it has dark mode because even back then I knew dark mode was non-negotiable.",
+      "Sure, if I built this today, I'd use Redux, Axios, and probably a dozen other things I've learned since. But Circle Sync will always hold a special place in my heart as the project that turned me from someone who 'knew React' into someone who actually understood full-stack development.",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/circle-sync%2Fcirclesync-7.png?alt=media&token=0df1c91f-6811-4575-bcf6-967a2c046429",
