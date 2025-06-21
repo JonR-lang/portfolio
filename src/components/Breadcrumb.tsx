@@ -19,7 +19,7 @@ const BreadcrumbComponent = ({ className, paths, page }: BreadcrumbProp) => {
     <Breadcrumb className={`text-neutral-200 ${className}`}>
       <BreadcrumbList>
         <BreadcrumbItem>
-          <Link to='/'>Home</Link>
+          <Link to="/">Home</Link>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
 

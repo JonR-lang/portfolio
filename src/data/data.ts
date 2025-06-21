@@ -87,12 +87,12 @@ const projects = [
     rating: 5,
     thumbnail: {
       mobileSrc:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush-type-a.png?alt=media&token=5507da90-78cc-41d7-82a6-d4d2f7676027",
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush_iphone-1.png?alt=media&token=7a1f4933-f765-4fe5-9bbc-a44c099a6e32",
       desktopSrc:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush-type-a.png?alt=media&token=5507da90-78cc-41d7-82a6-d4d2f7676027",
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/oil-rush%2Foil-rush_iphone-1.png?alt=media&token=7a1f4933-f765-4fe5-9bbc-a44c099a6e32",
     },
     alt: "oil-rush-app",
-    theme: "#000000",
+    theme: "#9332ea",
     title: "Oil Rush",
     short_description:
       "A Telegram mini app where users earn coins by completing tasks in a gamified oil-wealth empire.",

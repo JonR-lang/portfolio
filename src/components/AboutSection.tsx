@@ -37,7 +37,7 @@ const AboutSection = () => {
             aria-hidden={true}
           />
           <SiMongodb
-            className="text-[50px] sm:text-[100px] hover:text-mondoDb hover:scale-105 cursor-pointer duration-150 hover:-translate-y-2"
+            className="text-[50px] sm:text-[100px] hover:text-mongoDb hover:scale-105 cursor-pointer duration-150 hover:-translate-y-2"
             aria-hidden={true}
           />
           <SiNodedotjs

@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { Toaster } from "../components/ui/toaster";
 
 const Layout = ({
   children,
@@ -8,8 +9,9 @@ const Layout = ({
   return (
     <div className={className}>
       <Header />
-      <div className='min-h-[calc(100vh-100px)] px-[1.5rem]'>{children}</div>
+      <div className="min-h-[calc(100vh-100px)] px-[1.5rem]">{children}</div>
       <Footer />
+      <Toaster />
     </div>
   );
 };
