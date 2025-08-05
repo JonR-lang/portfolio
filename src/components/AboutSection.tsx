@@ -15,7 +15,7 @@ const AboutSection = () => {
         <p>
           {" "}
           I’m Iroele Johnny, a full-stack developer with a sharp focus on
-          building fast, user-friendly websites and applications. For three
+          building fast, user-friendly websites and applications. For FIVE
           years, I’ve been delivering high-performance websites and
           web-applications with React, ensuring every project is both functional
           and visually stunning!.
