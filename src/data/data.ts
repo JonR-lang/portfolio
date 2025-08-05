@@ -1,5 +1,59 @@
 const projects = [
   {
+    id: "eir302",
+    rating: 5.0,
+    thumbnail: {
+      mobileSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2Fmedique-three.png?alt=media&token=8e86f15d-db78-4872-a719-aab5b4cc4a7b",
+      desktopSrc:
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2Fmedique-four.png?alt=media&token=e4a32351-5d03-44e4-9f5a-ec46415e8c75",
+    },
+    alt: "mystery app",
+    theme: "#B57EDC",
+    title: "Mystery App",
+    short_description:
+      "A learning app for medical students. This project is still in active development, so details such as the app name and URL cannot be shared yet.",
+    long_description: [
+      "This is a fullstack medical education app aimed at helping medical students study faster and retain more. It will contain several innovative features including podcast-style audio lectures, AI-generated flashcards, and dynamic history-taking tools for clinical use.",
+      "Due to ongoing development, specific information about the application, including its name, branding, and demo links, is being kept confidential at this stage.",
+      "Stay tuned for updates as this side project evolves into a full-fledged academic companion for medical students.",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2Fmedique-three.png?alt=media&token=8e86f15d-db78-4872-a719-aab5b4cc4a7b",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2Fmedique-one.png?alt=media&token=933372dc-3f55-4194-9978-77687727c6ea",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2Fmedique-four.png?alt=media&token=e4a32351-5d03-44e4-9f5a-ec46415e8c75",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2Fmedique-six.png?alt=media&token=57a1d131-52f7-4e3b-8a4c-2a9a79098567",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2Fmedique-five.png?alt=media&token=92dbc654-ebe9-49ea-a59a-11ab4e5e425e",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2FIMG_7422.webp?alt=media&token=2e676b0b-fa86-4aa5-a415-a9ed86186c23",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2FIMG_7421.webp?alt=media&token=d354e4e0-9464-4c00-94f8-a26520955106",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2FIMG_7420.webp?alt=media&token=4f108b61-3cdf-447c-adaa-d9f6f70dece6",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2FIMG_7418.webp?alt=media&token=14f85d41-d4bf-4759-8465-ed5f1b511f3c",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/medique%2FIMG_7419.webp?alt=media&token=a1b79ed2-139f-4b44-917e-dc57bfa4d307",
+    ],
+    live_url: "",
+    github: "https://github.com/JonR-lang",
+    features: [
+      "AI generation of lectures",
+      "AI podcast generation",
+      "Taking of clinical history",
+    ],
+    stack: [
+      "React",
+      "Node.js",
+      "Docker",
+      "Appwrite",
+      "Gemini API",
+      "Tailwind",
+      "Framer-motion",
+      "shadcn/ui",
+    ],
+    info: "",
+    documentation: "",
+    category: "Fullstack Application",
+    status: "In Development",
+    type: "Side Project",
+  },
+  {
     id: "123094",
     rating: 4.7,
     thumbnail: {
