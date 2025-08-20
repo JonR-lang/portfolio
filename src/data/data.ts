@@ -409,9 +409,9 @@ const projects = [
       "Sure, if I built this today, I'd use Redux, Axios, and probably a dozen other things I've learned since. But Circle Sync will always hold a special place in my heart as the project that turned me from someone who 'knew React' into someone who actually understood full-stack development.",
     ],
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/circle-sync%2Fcirclesync-7.png?alt=media&token=0df1c91f-6811-4575-bcf6-967a2c046429",
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/circle-sync%2Fcirclesync-8.png?alt=media&token=3c2ae453-4e65-4c5d-9e60-931b674fc159",
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/circle-sync%2Fcirclesync-9.png?alt=media&token=975c0a64-f67f-4a31-bdcc-ddb79a72d55d",
+      // "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/circle-sync%2Fcirclesync-7.png?alt=media&token=0df1c91f-6811-4575-bcf6-967a2c046429",
+      // "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/circle-sync%2Fcirclesync-8.png?alt=media&token=3c2ae453-4e65-4c5d-9e60-931b674fc159",
+      // "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/circle-sync%2Fcirclesync-9.png?alt=media&token=975c0a64-f67f-4a31-bdcc-ddb79a72d55d",
       "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/circle-sync%2Fcirclesync-1.png?alt=media&token=ae41de5f-efe9-4a8c-a621-e8d34fe6e804",
       "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/circle-sync%2Fcirclesync-2.png?alt=media&token=ab53c2bc-d155-4d56-8ad0-9e5e3fcf1bca",
       "https://firebasestorage.googleapis.com/v0/b/portfolio-images-5792a.appspot.com/o/circle-sync%2Fcirclesync-3.png?alt=media&token=49046182-1504-455f-ad53-198b54086c8f",
